@@ -1,9 +1,10 @@
 <template>
   <div>
-    <NuxtPage />
+    <Nav />
+    <slot />
   </div>
 </template>
-
 <script setup>
-  import './assets/styles/app.scss'
+
+//
 </script>
