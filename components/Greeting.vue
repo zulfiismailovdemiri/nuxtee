@@ -1,5 +1,10 @@
 <template>
   <div>
-    Hello
+    Hello {{ name }}
   </div>
 </template>
+
+<script setup>
+  const name = 'Zulfi'
+
+</script>

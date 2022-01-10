@@ -1,6 +1,9 @@
 <template>
   <div>
 
+    <h3>Work with Fetch in nuxt3</h3>
+    <h1>Todos</h1>
+
     <template v-if="todos">
       <div v-for="todo in todos" :key="todo.id">
 
