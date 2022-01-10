@@ -1,10 +1,13 @@
 <template>
   <div>
     <div>
-      <h3>Work with Fetch in nuxt3</h3>
-      <h1>Todos with ID</h1>
+      <h3 class="mb-8 text-4xl">Work with Fetch in nuxt3</h3>
+      <h1 class="font-bold text-2xl mb-8">Todos with ID</h1>
     </div>
-    {{ todo.title }} (ID: {{ todo.id }})
+    <h2 class="text-3xl">
+      {{ todo.title }} (ID: {{ todo.id }})
+    </h2>
+
   </div>
 </template>
 
